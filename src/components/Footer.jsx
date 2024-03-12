@@ -1,6 +1,7 @@
 import React from 'react'
 import { logo } from '../assets'
-import {FaFacebookF,FaDribbble,FaLinkedinIn,FaInstagram,FaBehance} from 'react-icons/fa'
+import {FaFacebookF,FaWhatsapp,FaInstagram,FaBehance} from 'react-icons/fa'
+import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
@@ -9,16 +10,16 @@ const Footer = () => {
             
             <div className='col-span-2'>
                 <img src={logo} className="h-[25px]" />
-                <h3 className='text-2xl font-bold mt-10'>Contact Us</h3>
-                <h3 className='py-2 text-[#6D737A]'>Call : +123 400 123</h3>
+                <h3 className='text-2xl font-bold mt-10'>Contactanos</h3>
+                <h3 className='py-2 text-[#6D737A]'>Llama : +52 464 1504886</h3>
                 <h3 className='py-2 text-[#6D737A]'>Praesent nulla massa, hendrerit <br></br> vestibulum gravida in, feugiat auctor felis.</h3>
                 <h3 className='py-2 text-[#363A3D]'>Email: example@mail.com</h3>
                 <div className='flex gap-4 py-4'>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaFacebookF size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaDribbble size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaLinkedinIn size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaInstagram size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaBehance size={25} style={{color:'#4DC39E'}} /></div>
+                <button><div className='p-4 bg-[#016AC2] rounded-xl'><FaFacebookF size={25} style={{color:'#ffffff'}} /></div></button>
+                <button><div className='p-4 bg-[#016AC2] rounded-xl'><FaWhatsapp size={25} style={{color:'#ffffff'}} /></div></button>
+                <button><div className='p-4 bg-[#016AC2] rounded-xl'><HiOutlineMail size={25} style={{color:'#ffffff'}} /></div></button>
+                <button><div className='p-4 bg-[#016AC2] rounded-xl'><FaInstagram size={25} style={{color:'#ffffff'}} /></div></button>
+                <button><div className='p-4 bg-[#016AC2] rounded-xl'><FaBehance size={25} style={{color:'#ffffff'}} /></div></button>
 
                 </div>
 
@@ -58,7 +59,7 @@ const Footer = () => {
                         className='bg-[#F2F3F4] p-4 w-full rounded' 
                         placeholder='Email here' 
                     />
-                    <button className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#20B486] text-white font-medium'>Subscribe Now</button>
+                    <button className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#016AC2] text-white font-medium'>Subscribe Now</button>
 
                 </form>
 
