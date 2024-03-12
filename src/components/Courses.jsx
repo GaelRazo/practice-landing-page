@@ -45,7 +45,7 @@ const Courses = () => {
   };
 
   return (
-    <div className='w-full bg-[#E9F8F3B2] py-32'>
+    <div className='w-full bg-[#1788f160] py-32'>
         <div className='md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-0'>
             <div className='py-4'>
               <h1 className='py-3 text-3xl font-bold'>Most Popular <span className='text-[#20B486]'>Courses</span></h1>

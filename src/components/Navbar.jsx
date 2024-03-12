@@ -7,29 +7,38 @@ const Navbar = () => {
     const handleClick = ()=> setToggle(!toggle)
 
   return (
-    <div className='w-full h-[80px] bg-white border-b'>
+    <div className='w-full h-[80px] bg-[#016AC2] '>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4'>
             
-            <img src={logo} className="h-[25px]" />
+            <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                <img src={logo} className="h-[45px]" />
+            </button>
             
-            <div className='hidden md:flex items-center '>
+            <div className='hidden md:flex items-center text-white'>
                 <ul className='flex gap-4'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Support</li>
-                    <li>Platform</li>
-                    <li>Pricing</li>
+                    <li>
+                        <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                            Nosotros
+                        </button>
+                    </li>
+                    <li>
+                        <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                            Servicios
+                        </button>
+                    </li>
+                    <li>
+                        <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                            Galeria
+                        </button>
+                    </li>
+                    <li>
+                        <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                            Contacto
+                        </button>
+                    </li>
                 </ul>
             </div>
 
-
-            <div className='hidden md:flex'>
-                <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
-                    <img src={lock} />
-                    Login
-                </button>
-                <button className='px-8 py-3 rounded-md bg-[#20B486] text-white font-bold'>Sign Up For Free</button>
-            </div>
 
             <div className='md:hidden'  onClick={handleClick}>
                     <img src={toggle?close:hamburgerMenu} />
@@ -47,13 +56,6 @@ const Navbar = () => {
                     <li className='p-4 hover:bg-gray-100'>Support</li>
                     <li className='p-4 hover:bg-gray-100'>Platform</li>
                     <li className='p-4 hover:bg-gray-100'>Pricing</li>
-                    <div className='flex flex-col my-4 gap-4'>
-                        <button className='border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4'>
-                         <img src={lock} />
-                         Login
-                        </button>
-                        <button className='px-8 py-5 rounded-md bg-[#20B486] text-white font-bold'>Sign Up For Free</button>
-                    </div>
             </ul>
         </div>
         
