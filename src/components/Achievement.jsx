@@ -3,10 +3,10 @@ import { achievement } from '../assets'
 import {SlGraduation} from 'react-icons/sl'
 import {FiVideo} from 'react-icons/fi'
 import {SlPeople} from 'react-icons/sl'
-import { IoBuildOutline } from "react-icons/io5";
 import { GiGardeningShears } from "react-icons/gi";
-import { GrPaint } from "react-icons/gr";
-
+import { RiPaintBrushLine } from "react-icons/ri";
+import { GrConfigure } from "react-icons/gr";
+import { IoBuildOutline } from "react-icons/io5";
 
 const Achievement = () => {
   return (
@@ -14,8 +14,8 @@ const Achievement = () => {
         <div className='md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[600px]  px-4 md:px-0'>
             
             <div className='flex flex-col justify-center '>
-                <h1 className='md:leading-[72px] text-3xl font-bold'>Our <span className='text-[#016AC2]'>Achievements</span></h1>
-                <p className='text-lg text-gray-600'>Various versions have evolved over the years, sometimes by accident.</p>
+                <h1 className='md:leading-[72px] text-3xl font-bold'>Nuestros <span className='text-[#016AC2]'>servicios</span></h1>
+                <p className='text-lg text-gray-600'>Algunos de los servicios que la empresa <span className='text-[#016AC2]'>Higuar</span> ofrece</p>
                 
                 <div className='grid grid-cols-2 py-16'>
                     <div className='py-6 flex'>
@@ -26,34 +26,34 @@ const Achievement = () => {
                             />
                         </div>
                         <div className='px-3'>
-                            <h1 className='text-2xl font-semibold'>300</h1>
-                            <p className='text-[#6D737A]'>Instructor</p>
+                            <h1 className='text-2xl font-semibold'>Jardineria</h1>
+                            <p className='text-[#6D737A]'>Jardineria</p>
                         </div>
 
                     </div>
                     <div className='py-6 flex'>
                         <div className='p-4 bg-[#FFFAF5] rounded-xl'>
-                            <GiGardeningShears 
+                            <IoBuildOutline 
                                 size={30}
                                 style={{color:'#FFC27A'}}
                             />
                         </div>
                         <div className='px-3'>
-                            <h1 className='text-2xl font-semibold'>10,000+</h1>
-                            <p className='text-[#6D737A]'>Video</p>
+                            <h1 className='text-2xl font-semibold'>Reparación</h1>
+                            <p className='text-[#6D737A]'>Reparación</p>
                         </div>
 
                     </div>
                     <div className='py-6 flex'>
                         <div className='p-4 bg-[#FFEEF0] rounded-xl'>
-                            <IoBuildOutline 
+                            <RiPaintBrushLine 
                                 size={30}
                                 style={{color:'#ED4459'}}
                             />
                         </div>
                         <div className='px-3'>
-                            <h1 className='text-2xl font-semibold'>20,000+</h1>
-                            <p className='text-[#6D737A]'>Student</p>
+                            <h1 className='text-2xl font-semibold'>Pintura</h1>
+                            <p className='text-[#6D737A]'>Pintura</p>
                         </div>
 
                     </div>
@@ -65,8 +65,8 @@ const Achievement = () => {
                             />
                         </div>
                         <div className='px-3'>
-                            <h1 className='text-2xl font-semibold'>1,00,000+</h1>
-                            <p className='text-[#6D737A]'>Users</p>
+                            <h1 className='text-2xl font-semibold'>Servicios</h1>
+                            <p className='text-[#6D737A]'>Servicios</p>
                         </div>
 
                     </div>
