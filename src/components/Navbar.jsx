@@ -1,6 +1,30 @@
 import React, { useState } from 'react';
 import {logo,lock, hamburgerMenu, close} from '../assets'
 
+const links=[
+    {
+        name: 'Home',
+        href: 'Home'
+    },
+    {
+        name: 'Nosotros',
+        href: 'Nosotros'
+    },
+    {
+        name: 'Servicios',
+        href: 'Servicios'
+    },
+    {
+        name: 'Galeria',
+        href: 'Galeria'
+    },
+    {
+        name: 'Contacto',
+        href: 'Contacto'
+    },
+
+]
+
 const Navbar = () => {
 
     const [toggle,setToggle]=useState(false)
@@ -43,9 +67,6 @@ const Navbar = () => {
             <div className='md:hidden'  onClick={handleClick}>
                     <img src={toggle?close:hamburgerMenu} />
             </div>
-
-
-
 
         </div>
 
