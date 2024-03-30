@@ -1,6 +1,7 @@
 import React from 'react';
 import { heroImg } from '../assets';
 import  {AiOutlineSearch} from 'react-icons/ai'
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -15,9 +16,9 @@ const Hero = () => {
                 </h1>
                 <p className='py-2 text-lg text-white'>Ofrecemos una amplia gama de suministros, servicios y la integración de todos ellos.</p>
                 
-                    <button className=' bg-[#59E54C]  max-w-[150px] p-4 input-box-shadow rounded-md flex justify-between items-center px-7'>
+                    <Link to="prueba"><button className=' bg-[#59E54C]  max-w-[150px] p-4 input-box-shadow rounded-md flex justify-between items-center px-7'>
                         Contactanos
-                    </button>
+                    </button></Link>
 
             </div>
             

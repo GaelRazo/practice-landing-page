@@ -1,26 +1,27 @@
 import React, { useState } from 'react';
 import {logo,lock, hamburgerMenu, close} from '../assets'
+import { Link } from 'react-router-dom';
 
 const links=[
     {
         name: 'Home',
-        href: 'Home'
+        href: '/home'
     },
     {
         name: 'Nosotros',
-        href: 'Nosotros'
+        href: '/nosotros'
     },
     {
         name: 'Servicios',
-        href: 'Servicios'
+        href: '/servicios'
     },
     {
         name: 'Galeria',
-        href: 'Galeria'
+        href: '/galeria'
     },
     {
         name: 'Contacto',
-        href: 'Contacto'
+        href: '/contacto'
     },
 
 ]
@@ -31,24 +32,26 @@ const Navbar = () => {
     const handleClick = ()=> setToggle(!toggle)
 
   return (
+
+    
     <div className='w-full h-[80px] bg-[#016AC2] '>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4'>
             
-            <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+            <Link to="/"><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
                 <img src={logo} className="h-[45px]" />
-            </button>
+            </button></Link>
             
             <div className='hidden md:flex items-center text-white'>
                 <ul className='flex gap-4'>
                     <li>
-                        <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                        <Link to="Nosotros"><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
                             Nosotros
-                        </button>
+                        </button></Link>
                     </li>
                     <li>
-                        <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                        <Link to="Servicios"><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
                             Servicios
-                        </button>
+                        </button></Link>
                     </li>
                     <li>
                         <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
@@ -82,6 +85,7 @@ const Navbar = () => {
         
         
     </div>
+
   )
 }
 
