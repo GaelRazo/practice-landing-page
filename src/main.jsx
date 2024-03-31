@@ -7,6 +7,7 @@ import Nosotros from "./screens/Nosotros";
 import { Hero, Navbar } from "./components";
 import HOCLayout from "./components/HOCLayout";
 import Servicios from "./screens/Servicios";
+import Galeria from "./screens/Galeria";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,14 @@ const router = createBrowserRouter([
     element: (
       <HOCLayout>
         <Servicios/>
+      </HOCLayout>
+    ),
+  },
+  {
+    path: "Galeria",
+    element: (
+      <HOCLayout>
+        <Galeria/>
       </HOCLayout>
     ),
   },

@@ -54,14 +54,14 @@ const Navbar = () => {
                         </button></Link>
                     </li>
                     <li>
-                        <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                        <Link to="Galeria"><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
                             Galeria
-                        </button>
+                        </button></Link>
                     </li>
                     <li>
-                        <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                        <Link to="Servicios"><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
                             Contacto
-                        </button>
+                        </button></Link>
                     </li>
                 </ul>
             </div>

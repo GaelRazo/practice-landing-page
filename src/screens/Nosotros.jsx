@@ -5,7 +5,7 @@ const Nosotros = () => {
   return (
     <div>
       <Feedback/>
-        <Categories/>
+      <Categories/>
         
     </div>
   )
