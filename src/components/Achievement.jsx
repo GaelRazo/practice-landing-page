@@ -27,7 +27,7 @@ const Achievement = () => {
                         </div>
                         <div className='px-3'>
                             <h1 className='text-2xl font-semibold'>Jardineria</h1>
-                            <p className='text-[#6D737A]'>Jardineria</p>
+                            <p className='text-[#6D737A]'>Servicio de jardineria preventivo y correctivo</p>
                         </div>
 
                     </div>
@@ -40,7 +40,7 @@ const Achievement = () => {
                         </div>
                         <div className='px-3'>
                             <h1 className='text-2xl font-semibold'>Reparación</h1>
-                            <p className='text-[#6D737A]'>Reparación</p>
+                            <p className='text-[#6D737A]'>Reparación y mantenimiento de electrodomesticos en general</p>
                         </div>
 
                     </div>
@@ -53,7 +53,7 @@ const Achievement = () => {
                         </div>
                         <div className='px-3'>
                             <h1 className='text-2xl font-semibold'>Pintura</h1>
-                            <p className='text-[#6D737A]'>Pintura</p>
+                            <p className='text-[#6D737A]'>Pintura de inmuebles y varios</p>
                         </div>
 
                     </div>
@@ -66,7 +66,7 @@ const Achievement = () => {
                         </div>
                         <div className='px-3'>
                             <h1 className='text-2xl font-semibold'>Servicios</h1>
-                            <p className='text-[#6D737A]'>Servicios</p>
+                            <p className='text-[#6D737A]'>Apoyo y orientación de servicios</p>
                         </div>
 
                     </div>
