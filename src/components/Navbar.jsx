@@ -59,7 +59,7 @@ const Navbar = () => {
                         </button></Link>
                     </li>
                     <li>
-                        <Link to="Servicios"><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                        <Link to="Contacto"><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
                             Contacto
                         </button></Link>
                     </li>

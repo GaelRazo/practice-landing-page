@@ -8,7 +8,7 @@ const FeedbackCard = () => {
         <div className='flex gap-4'>
                 <img src={avatar} />
                 <div>
-                    <h1>Jenny Wilson</h1>
+                    <h1>Gael Razo</h1>
                     <p>UI-UX Designer</p>
                 </div>
             
@@ -17,7 +17,7 @@ const FeedbackCard = () => {
       </div>
 
       <div className='py-8'>
-        <h3 className='text-lg'>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.</h3>
+        <h3 className='text-lg'>Los servicios que Higuar ofrece me han ayudado a solucionar y corregir situaciones que se presentaron en momentos inoportunos, tales como problemas de fontaneria y mecanica automotriz, los cuales han necesitado una atencion rapida y con Hifuar lo pude encontrar, Gracias Higuar!.</h3>
       </div>
     </div>
   )

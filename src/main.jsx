@@ -8,6 +8,7 @@ import { Footer, Hero, Navbar } from "./components";
 import HOCLayout from "./components/HOCLayout";
 import Servicios from "./screens/Servicios";
 import Galeria from "./screens/Galeria";
+import Contacto from "./screens/Contacto";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -36,6 +37,14 @@ ReactDOM.render(
           element={
             
               <Galeria />
+            
+          }
+        />
+        <Route
+          path="/contacto"
+          element={
+            
+              <Contacto />
             
           }
         />
