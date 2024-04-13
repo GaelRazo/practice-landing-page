@@ -75,11 +75,10 @@ const Navbar = () => {
 
         <div className={toggle?'absolute z-10 p-4  bg-white w-full px-8 md:hidden border-b':'hidden'}>
             <ul>
-                    <li className='p-4 hover:bg-gray-100'>Home</li>
-                    <li className='p-4 hover:bg-gray-100'>About</li>
-                    <li className='p-4 hover:bg-gray-100'>Support</li>
-                    <li className='p-4 hover:bg-gray-100'>Platform</li>
-                    <li className='p-4 hover:bg-gray-100'>Pricing</li>
+                    <li className='p-4 hover:bg-gray-100'><Link to="Nosotros">Nosotros</Link></li>
+                    <li className='p-4 hover:bg-gray-100'><Link to="Servicios">Servicios</Link></li>
+                    <li className='p-4 hover:bg-gray-100'><Link to="Galeria">Galeria</Link></li>
+                    <li className='p-4 hover:bg-gray-100'><Link to="Contacto">Contacto</Link></li>
             </ul>
         </div>
         
