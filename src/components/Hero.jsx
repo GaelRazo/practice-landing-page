@@ -3,6 +3,8 @@ import { heroImg } from '../assets';
 import  {AiOutlineSearch} from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 
+
+
 const Hero = () => {
   return (
     <div className='w-full bg-[#016AC2] py-20 md:py-48'>
@@ -16,9 +18,9 @@ const Hero = () => {
                 </h1>
                 <p className='py-2 text-lg text-white'>Ofrecemos una amplia gama de suministros, servicios y la integración de todos ellos.</p>
                 
-                    <Link to="prueba"><button className=' bg-[#59E54C]  max-w-[150px] p-4 input-box-shadow rounded-md flex justify-between items-center px-7'>
-                        Contactanos
-                    </button></Link>
+                    <button onclick="window.location.href = 'https://www.ejemplo.com';" className=' bg-[#59E54C]  max-w-[150px] p-4 input-box-shadow rounded-md flex justify-between items-center px-7'>
+                    <a href="https://api.whatsapp.com/send?phone=524641504886&text=Buenas%20tardes%20Guillermo,%20me%20gustaria%20preguntarte%20acerca%20de%20tus%20servicio%20:)" >Contactanos</a>
+                    </button>
 
             </div>
             

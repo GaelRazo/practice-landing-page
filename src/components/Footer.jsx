@@ -15,11 +15,9 @@ const Footer = () => {
                 <h3 className='py-2 text-[#6D737A]'>Contactanos via llamada  <br></br> o por nuestras redes sociales.</h3>
                 <h3 className='py-2 text-[#363A3D]'>Email: example@mail.com</h3>
                 <div className='flex gap-4 py-4'>
-                <button><div className='p-4 bg-[#016AC2] rounded-xl'><FaFacebookF size={25} style={{color:'#ffffff'}} /></div></button>
-                <button><div className='p-4 bg-[#016AC2] rounded-xl'><FaWhatsapp size={25} style={{color:'#ffffff'}} /></div></button>
-                <button><div className='p-4 bg-[#016AC2] rounded-xl'><HiOutlineMail size={25} style={{color:'#ffffff'}} /></div></button>
-                <button><div className='p-4 bg-[#016AC2] rounded-xl'><FaInstagram size={25} style={{color:'#ffffff'}} /></div></button>
-                <button><div className='p-4 bg-[#016AC2] rounded-xl'><FaBehance size={25} style={{color:'#ffffff'}} /></div></button>
+                <button><a href="https://www.facebook.com/profile.php?id=100064221786266" ><div className='p-4 bg-[#016AC2] rounded-xl'><FaFacebookF size={25} style={{color:'#ffffff'}} /></div></a></button>
+                <button><a href="https://api.whatsapp.com/send?phone=524641504886&text=Buenas%20tardes%20Guillermo,%20me%20gustaria%20preguntarte%20acerca%20de%20tus%20servicio%20:)" ><div className='p-4 bg-[#016AC2] rounded-xl'><FaWhatsapp size={25} style={{color:'#ffffff'}} /></div></a></button>
+                <button><a href="mailto:elcorreoquequieres@correo.com?Subject=Informes%20de%20la%20pagina%20web" ><div className='p-4 bg-[#016AC2] rounded-xl'><HiOutlineMail size={25} style={{color:'#ffffff'}} /></div></a></button>
 
                 </div>
 
@@ -55,7 +53,7 @@ const Footer = () => {
                 <h3 className='py-2 text-[#6D737A]'>Contactanos via whatsapp <br></br> para cotizar nuestros servicios.</h3>
                 <form className='py-4'>
 
-                    <button className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#016AC2] text-white font-medium'>Escribenos</button>
+                    <button className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#016AC2] text-white font-medium'><a href="https://api.whatsapp.com/send?phone=524641504886&text=Buenas%20tardes%20Guillermo,%20me%20gustaria%20preguntarte%20acerca%20de%20tus%20servicio%20:)" >Escribenos</a></button>
 
                 </form>
 

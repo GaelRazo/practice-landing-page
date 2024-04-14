@@ -12,7 +12,9 @@ const CTA = () => {
         <div>
             <h1 className='py-2  text-3xl font-semibold'>Comuniate con <span className='text-[#016AC2]'>HIGUAR</span> y le daremos solucion a tus problemas. </h1>
             <p className='py-2 text-lg text-gray-600'>Contactanos via WhatsApp o al 4641504886</p>
-            <button className='max-[780px]:w-full my-4 px-8 py-5 rounded-md bg-[#016AC2] text-white font-bold'>Contactar</button>
+            <button className='max-[780px]:w-full my-4 px-8 py-5 rounded-md bg-[#016AC2] text-white font-bold'><a href="https://api.whatsapp.com/send?phone=524641504886&text=Buenas%20tardes%20Guillermo,%20me%20gustaria%20preguntarte%20acerca%20de%20tus%20servicio%20:)" >
+              Contactar</a>
+              </button>
 
              
         </div>

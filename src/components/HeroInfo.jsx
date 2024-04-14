@@ -16,9 +16,9 @@ const HeroInfo = () => {
                 suministro, instalación y mantenimiento de sistemas de aire acondicionado. Nos enorgullece destacar por la eficiencia, calidad y versatilidad 
                 de nuestros servicios, brindando a nuestros clientes la tranquilidad de contar con un aliado confiable para sus necesidades operativas.</p>
                 
-                    <Link to="prueba"><button className=' bg-[#59E54C]  max-w-[150px] p-4 input-box-shadow rounded-md flex justify-between items-center px-7'>
-                        Contactanos
-                    </button></Link>
+                    <button className=' bg-[#59E54C]  max-w-[150px] p-4 input-box-shadow rounded-md flex justify-between items-center px-7'>
+                    <a href="https://api.whatsapp.com/send?phone=524641504886&text=Buenas%20tardes%20Guillermo,%20me%20gustaria%20preguntarte%20acerca%20de%20tus%20servicio%20:)" >Contactanos</a>
+                    </button>
 
             </div>
             
