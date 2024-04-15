@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className='flex gap-4 py-4'>
                 <button><a href="https://www.facebook.com/profile.php?id=100064221786266" ><div className='p-4 bg-[#016AC2] rounded-xl'><FaFacebookF size={25} style={{color:'#ffffff'}} /></div></a></button>
                 <button><a href="https://api.whatsapp.com/send?phone=524641504886&text=Buenas%20tardes%20Guillermo,%20me%20gustaria%20preguntarte%20acerca%20de%20tus%20servicio%20:)" ><div className='p-4 bg-[#016AC2] rounded-xl'><FaWhatsapp size={25} style={{color:'#ffffff'}} /></div></a></button>
-                <button><a href="mailto:elcorreoquequieres@correo.com?Subject=Informes%20de%20la%20pagina%20web" ><div className='p-4 bg-[#016AC2] rounded-xl'><HiOutlineMail size={25} style={{color:'#ffffff'}} /></div></a></button>
+                <button><a href="mailto:gfro_1@outlook.com?Subject=Informes%20de%20la%20pagina%20web" ><div className='p-4 bg-[#016AC2] rounded-xl'><HiOutlineMail size={25} style={{color:'#ffffff'}} /></div></a></button>
 
                 </div>
 
